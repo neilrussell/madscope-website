@@ -20,13 +20,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("netlify");
   eleventyConfig.addPassthroughCopy("robots.txt");
   eleventyConfig.addPassthroughCopy("*.html");
-  eleventyConfig.addPassthroughCopy("how-it-works");
-  eleventyConfig.addPassthroughCopy("results");
-  eleventyConfig.addPassthroughCopy("pricing");
-  eleventyConfig.addPassthroughCopy("about");
-  eleventyConfig.addPassthroughCopy("contact");
-  eleventyConfig.addPassthroughCopy("martial-arts");
-  eleventyConfig.addPassthroughCopy("blog/index.html");
   eleventyConfig.addPassthroughCopy("privacy");
   eleventyConfig.addPassthroughCopy("book");
 
