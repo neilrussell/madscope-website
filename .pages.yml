@@ -1,0 +1,43 @@
+media:
+  input: images
+  output: /images
+
+content:
+  - name: posts
+    label: Blog Posts
+    type: collection
+    path: posts
+    view:
+      fields: [title, date, category]
+    fields:
+      - { name: title, label: Title, type: string }
+      - { name: description, label: Meta Description, type: string }
+      - { name: date, label: Date, type: date }
+      - { name: category, label: Category, type: string }
+      - { name: readTime, label: Read Time, type: string }
+      - { name: slug, label: Slug, type: string }
+      - { name: body, label: Content, type: rich-text }
+
+  - name: results
+    label: Results / Testimonials
+    type: file
+    path: _data/results.json
+    fields:
+      - name: testimonials
+        label: Testimonials
+        type: list
+        fields:
+          - { name: number, label: Result Number, type: string }
+          - { name: context, label: Context (e.g. "in 2 months"), type: string }
+          - { name: quote, label: Quote, type: string }
+          - { name: name, label: Client Name, type: string }
+          - { name: school, label: School Name, type: string }
+
+  - name: homepage
+    label: Homepage Content
+    type: file
+    path: _data/homepage.json
+    fields:
+      - { name: hero_headline, label: Hero Headline, type: string }
+      - { name: hero_sub, label: Hero Subheadline, type: string }
+      - { name: booking_url, label: Booking URL, type: string }

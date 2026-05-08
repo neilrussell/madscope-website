@@ -1,0 +1,60 @@
+{
+  "testimonials": [
+    {
+      "number": "75",
+      "context": "enrolled students in 2 months",
+      "quote": "I was expecting 3 or 4 new students a month... I'm getting 3 or 4 a day!",
+      "name": "Master Wadley",
+      "school": ""
+    },
+    {
+      "number": "300%",
+      "context": "enrollment growth in 90 days",
+      "quote": "Increased my enrollment 300% within 90 days!",
+      "name": "Sensei Jackson",
+      "school": "PKI MMA"
+    },
+    {
+      "number": "45",
+      "context": "enrolled students in 1 month",
+      "quote": "The single best decision I've made in the history of our school.",
+      "name": "Master Westall",
+      "school": ""
+    },
+    {
+      "number": "$20K",
+      "context": "added in annual contracts in 1 month",
+      "quote": "$20,000 added in annual contracts in one month.",
+      "name": "Master Trento",
+      "school": "Trento's Martial Arts & Fitness"
+    },
+    {
+      "number": "30",
+      "context": "enrolled students in 2 weeks",
+      "quote": "We went from struggling to fill classes to turning students away.",
+      "name": "Dave Spero",
+      "school": ""
+    },
+    {
+      "number": "22",
+      "context": "enrolled students in 1 month",
+      "quote": "I've tried other agencies. None of them had a team that actually booked the appointments for me.",
+      "name": "Master Robinson",
+      "school": "Robinson's Taekwondo"
+    },
+    {
+      "number": "4",
+      "context": "new students per week, consistently",
+      "quote": "Consistent, qualified students every single week. That's all I wanted.",
+      "name": "Shihan Feidt",
+      "school": "Impact Martial Arts & Fitness"
+    },
+    {
+      "number": "15",
+      "context": "new students in a single day",
+      "quote": "Fifteen new students in one day. I didn't believe it until I saw the class full.",
+      "name": "Jesse Beebe",
+      "school": ""
+    }
+  ]
+}
