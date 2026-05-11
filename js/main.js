@@ -1,11 +1,6 @@
-// Nav: mobile toggle + dropdown
+// Nav: dropdown
 const nav = document.querySelector('.nav');
-const navToggle = document.querySelector('.nav-toggle');
 const navDropdown = document.querySelector('.nav-dropdown');
-
-if (navToggle) {
-  navToggle.addEventListener('click', () => nav.classList.toggle('open'));
-}
 
 if (navDropdown) {
   navDropdown.querySelector('.nav-dropdown-toggle').addEventListener('click', () => {
@@ -35,10 +30,6 @@ document.querySelectorAll('.faq-q').forEach(btn => {
   });
 });
 
-// Close mobile nav on link click
-document.querySelectorAll('.nav.open .nav-links a').forEach(a => {
-  a.addEventListener('click', () => nav.classList.remove('open'));
-});
 
 // Lightbox for testimonial images
 (function () {
