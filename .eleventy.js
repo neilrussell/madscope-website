@@ -21,6 +21,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("robots.txt");
   eleventyConfig.addPassthroughCopy("*.html");
   eleventyConfig.addPassthroughCopy("privacy");
+  eleventyConfig.addPassthroughCopy("about");
+  eleventyConfig.addPassthroughCopy("terms");
   eleventyConfig.addPassthroughCopy("book");
 
   eleventyConfig.addCollection("posts", function(collectionApi) {
